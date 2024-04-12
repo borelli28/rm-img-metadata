@@ -14,10 +14,5 @@ then
     exit 1
 fi
 
-
-echo "Removing metadata from $1..."
-exiftool -all= "$1"
-
-
-echo "Remaining metadata:"
-exiftool "$1"
+echo "Removing all metadata from $1..."
+exiftool -all= -overwrite_original "$1"
