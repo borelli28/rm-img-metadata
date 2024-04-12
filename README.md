@@ -10,4 +10,4 @@
 `chmod +x rm-meta.sh`
 
 ### Usage
-`./rm-meta.sh /my_file_path.png`
+`./rm-meta.sh /path_to_image.png`
