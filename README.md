@@ -1,5 +1,8 @@
 # rm-img-metadata
 
+### Clone Repo
+`git clone https://github.com/borelli28/rm-img-metadata.git`
+
 ### ExifTool Homebrew Installation
 `brew install exiftool`
 
